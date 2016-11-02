@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    text-decoration-color: black;
+}
+
+div{
+  padding: .5%;
+  margin: .5%;
+  border-color: white;
+
+}
+
+#quiz {
+    text-indent: 30px;
+     text-decoration-color: black;
+    display: none;
+}
+
+.button {
+    border:1px solid;
+    border-radius:1px;
+    padding: 1%;
+    position: relative;
+    float: right;
+    color: white
+    margin: 0;
+}
+
+.button.active {
+    background-color: #A3D9DC;
+    color: #000;
+}
+
+button {
+    position: relative;
+    flex:auto;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    margin:5% 2.5%;
+    padding: 5% 2.5%;
+    border:1px solid #fafaf0;
+    border-radius:1px;
+    color: black;
+    text-align: left;
+    font: 30px;
+    font-family: "Merriweather", Courier;
+    background-image: url("http://0.fotos.web.sapo.io/i/o4d11671c/18561887_Ir33m.png");
+}
+
+ul {
+     padding: 0;
+    margin: 0;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+
+}
